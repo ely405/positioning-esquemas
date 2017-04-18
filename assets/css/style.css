@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.large-container{
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem auto;
+}
+
+.medium-container{
+    width: 10rem;
+    height: 10rem;
+}
+
+.small-container{
+    width: 5rem;
+    height: 5rem;
+}
+
+.red, .blue{
+    position: relative;
+}
+
+.purple, .green{
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.black{
+    background-color: #000000;
+    position: absolute;
+    top:-5rem;
+    left: -5rem;
+}
+
+.red{
+    background-color: #ED462F;
+}
+
+.purple{
+    background-color: #752E80;
+}
+
+.yellow{
+    background-color: #FFF835;
+}
+
+.blue{
+    background-color: #0048FB;
+}
+
+.green{
+   background-color: #387804; 
+}
