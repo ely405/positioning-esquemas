@@ -7,31 +7,28 @@
     width: 20rem;
     height: 20rem;
     margin: 1rem auto;
+    position: relative;
 }
 
 .medium-container{
     width: 10rem;
     height: 10rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .small-container{
     width: 5rem;
     height: 5rem;
-}
-
-.red, .blue{
-    position: relative;
-}
-
-.purple, .green{
     position: absolute;
-    top: 5rem;
-    left: 5rem;
 }
 
 .black{
     background-color: #000000;
-    position: absolute;
     top:-5rem;
     left: -5rem;
 }
@@ -53,5 +50,5 @@
 }
 
 .green{
-   background-color: #387804; 
+   background-color: #387804;
 }
